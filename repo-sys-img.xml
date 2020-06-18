@@ -13,7 +13,7 @@
             <sdk:archive>
                 <sdk:size>601861079</sdk:size>
                 <sdk:checksum type='sha1'>e4116efda559846d774c7f81bec00550445f7f4c</sdk:checksum>
-                <sdk:url>https://drive.google.com/uc?export=download&id=1r0UjRxdTXR0uQQ3fz23jngFAD1FytaJW</sdk:url>
+                <sdk:url>https://drive.google.com/uc?export=download&amp;id=1r0UjRxdTXR0uQQ3fz23jngFAD1FytaJW</sdk:url>
         <sdk:host-os>linux</sdk:host-os>
             </sdk:archive>
         </sdk:archives>
