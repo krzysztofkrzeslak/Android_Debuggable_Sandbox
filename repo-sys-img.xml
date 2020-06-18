@@ -1,21 +1,27 @@
-<?xml version="1.0"?>
-<sdk:sdk-sys-img
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xmlns:sdk="http://schemas.android.com/sdk/android/sys-img/3">
-    <sdk:system-image>
-        <sdk:revision>3</sdk:revision>
-        <sdk:description>Android SDK System Image</sdk:description>
-        <sdk:api-level>28</sdk:api-level>
-        <sdk:abi>x86_64</sdk:abi>
-        <sdk:tag-id>default</sdk:tag-id>
-        <sdk:tag-display>Default Android System Image</sdk:tag-display>
-        <sdk:archives>
-            <sdk:archive>
-                <sdk:size>601861079</sdk:size>
-                <sdk:checksum type='sha1'>e4116efda559846d774c7f81bec00550445f7f4c</sdk:checksum>
-                <sdk:url>https://drive.google.com/uc?id=1r0UjRxdTXR0uQQ3fz23jngFAD1FytaJW&amp;export=download</sdk:url>
-        <sdk:host-os>linux</sdk:host-os>
-            </sdk:archive>
-        </sdk:archives>
-    </sdk:system-image>
-</sdk:sdk-sys-img>
+ 
+<sys-img:sdk-sys-img xmlns:sys-img="http://schemas.android.com/sdk/android/repo/sys-img2/01" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <remotePackage path="system-images;android-28;debuggable;x86_64">
+<type-details xsi:type="sys-img:sysImgDetailsType">
+<api-level>28</api-level>
+<tag>
+<id>debuggable</id>
+<display/>
+</tag>
+<abi>x64</abi>
+</type-details>
+<revision>
+<major>5</major>
+</revision>
+<display-name>AndroidDebuggableTestImage</display-name>
+<archives>
+<archive>
+<!-- Built on: Thu Feb 21 12:04:09 2019. -->
+<complete>
+                <size>601861079</size>
+                <checksum>e4116efda559846d774c7f81bec00550445f7f4c</checksum>
+                <url>https://drive.google.com/uc?export=download&amp;id=1r0UjRxdTXR0uQQ3fz23jngFAD1FytaJW</url>
+</complete>
+</archive>
+</archives>
+</remotePackage>
+</sys-img:sdk-sys-img>
