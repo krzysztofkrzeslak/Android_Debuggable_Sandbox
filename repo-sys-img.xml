@@ -11,7 +11,7 @@
                 <id>debuggable</id>
                 <display>MyTagForDebuggable</display>
             </tag>
-            <abi>x86_x64</abi>
+            <abi>x86_64</abi>
         </type-details>
         <revision>
             <major>5</major>
