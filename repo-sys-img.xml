@@ -6,7 +6,7 @@
 <id>debuggable</id>
 <display/>
 </tag>
-<abi>x64</abi>
+<abi>x86_x64</abi>
 </type-details>
 <revision>
 <major>5</major>
