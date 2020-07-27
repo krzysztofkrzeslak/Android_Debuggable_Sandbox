@@ -56,4 +56,30 @@
             </archive>
         </archives>
     </remotePackage>
+    <remotePackage path="system-images;android-28;hacked;x86_64">
+        <type-details xsi:type="sys-img:sysImgDetailsType">
+            <api-level>28</api-level>
+            <tag>
+                <id>hacked</id>
+                <display>MyTagForHacked</display>
+            </tag>
+            <abi>x86_64</abi>
+        </type-details>
+        <revision>
+            <major>5</major>
+        </revision>
+        <display-name>AndroidDebuggableTestImage3</display-name>
+        <dependencies />
+        <channelRef ref="channel-0"/>
+        <archives>
+            <archive>
+                <!-- Built on: Thu Feb 21 12:04:09 2019. -->
+                <complete>
+                    <size>544838233</size>
+                    <checksum>6540a528666ff5de45f08c07c97577e615eac343</checksum>
+                    <url>https://bitbucket.org/gamapat/androidosimagehost/raw/676b73af3a989757cffedfc2e4f2d657e92d9721/sdk-repo-linux-system-images-eng.hacked.zip</url>
+                </complete>
+            </archive>
+        </archives>
+    </remotePackage>
 </sys-img:sdk-sys-img> 
